@@ -95,11 +95,13 @@ public class GameActivity extends AppCompatActivity {
         hint.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pauseTimer();
-                if (rewardedAd != null)
-                    showRewardedVideoAd();
+                
+                if (rewardedAd != null){
+                    pauseTimer();
+                    showRewardedVideoAd();}
                 else {
                     if (sharedPrefs.getCoins() >= 10) {
+                        pauseTimer();
                         sharedPrefs.useCoins(10);
                         showHintDialog();
                         Toast.makeText(GameActivity.this, "10 Coins used!", Toast.LENGTH_SHORT).show();
