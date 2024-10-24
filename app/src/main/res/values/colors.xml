@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#343434</color>
+    <color name="secondaryColor">#000000</color>
+
+
+    <color name="matte_black">#28282B</color>
+    <color name="onyx_black">#353935</color>
+
+    <color name="red">#C62828</color>
+    <color name="green">#558B2F</color>
+</resources>
